@@ -26,7 +26,6 @@ public class Caminho implements Comparable<Caminho>{
 		matriz[0][0].getOrigem().setUsado(true);
 		matriz[0][0].getOrigem().setOrigem(true);
 		
-		System.out.print(matriz[0][0].getOrigem().getId()+" -> ");
 		Ponto proximo = escolhe.proximoPonto(matriz, matriz[0][0].getOrigem());
 		ponto[0] = proximo;
 		

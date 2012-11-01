@@ -20,13 +20,11 @@ public class Escolhe {
 		}
 		
 		if(destino != null){
-			System.out.print(destino.getId()+" -> ");
 			return destino;			
 		}
 		else {
 			for (int i = 0; i < celulas.length; i++) {
 				if(celulas[i].getDestino().isOrigem()){
-					System.out.println(celulas[i].getDestino().getId());
 					return celulas[i].getDestino();					
 				}
 			}
