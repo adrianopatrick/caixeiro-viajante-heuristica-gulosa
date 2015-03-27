@@ -1,0 +1,1 @@
+Este produto possui a resolução do caixeiro viajante utilizando uma heurística gulosa, lembrando que a heurística gulosa não é a heurística mais adequada para resolução do problema do caixeiro viajante
